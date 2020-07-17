@@ -1,7 +1,7 @@
 
 
- export const createCorn = () => [
-    {
+ export const createCorn = () => {
+    return {
         type: "corn",
         height: 180,
         output: 6,
@@ -11,4 +11,4 @@
         height: 180,
         output: 6,
     }
-]
+ }

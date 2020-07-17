@@ -1,8 +1,8 @@
 const types = ["Soybean", "Corn", "Asparagus", "Wheat", "Potato", "Sunflower"]
 
+const plan = []
 
 export const createPlan = () => {
-    const plan = []
 
     for (let index = 0; index < 3; index++) {
         const row = []
